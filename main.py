@@ -28,7 +28,7 @@ class Graze(toga.App):
             on_webview_load=self.on_webview_loaded, style=Pack(flex=1)
         )
         self.url_input = toga.TextInput(
-            value="https://clelia.dev/", style=Pack(flex=1)
+            value="https://browser.clelia.dev/", style=Pack(flex=1)
         )
         self.ai_summary = toga.Label(
             text="AI summary will be shown here", style=Pack(flex=1)
