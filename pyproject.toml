@@ -5,7 +5,11 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
-    "llama-index-llms-google-genai>=0.2.1",
-    "pyperclip>=1.9.0",
-    "toga-winforms>=0.5.1",
+  "beautifulsoup4>=4.13.4",
+  "llama-index-llms-google-genai>=0.2.1",
+  "markdown>=3.8",
+  "pre-commit>=4.2.0",
+  "pyperclip>=1.9.0",
+  "python-dotenv>=1.1.0",
+  "toga-winforms>=0.5.1"
 ]
